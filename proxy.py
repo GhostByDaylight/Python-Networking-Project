@@ -41,7 +41,7 @@ def proxy():
         fileCondition = False
         
         #Try to find the file locally before finding it on the web server
-        for root, dirs, files in os.walk("C:\\Users\\benbu\\Desktop\\pythonProxy"):
+        for root, dirs, files in os.walk("C:"):
             for file in files:
                 if file == os.path.basename(result):
                     fileCondition = True
