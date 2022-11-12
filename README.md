@@ -5,7 +5,7 @@ This was an assignment in the Networking Achitecture class at BGSU. We were assi
 ## How to run:
 ### Proxy server:
 
-python proxy.py
+<code> python proxy.py </code>
 Made using normal python. Possibly works in python3
 
 ### SMTP Client:
