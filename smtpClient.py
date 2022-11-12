@@ -12,7 +12,7 @@ class smtpClient:
 		
 		recv1 = self.s.recv(1024)
 		print(recv1)
-		self.s.send('HELO Ben\r\n'.encode())
+		self.s.send('HELO\r\n'.encode())
 		recv15 = self.s.recv(1024)
 		print(recv15)
 		print('Connection successful')
